@@ -1,0 +1,40 @@
+.btn-xs {
+  padding: 0.4rem 0.6rem;
+  font-size: 0.6rem;
+  line-height: 1.2;
+  border-radius: 0.25rem;
+}
+.social-icons-menu a {
+  margin-right: 16px;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  &:hover {
+    color: #2163e8;
+  }
+}
+  
+  // nav divider
+  .nav.nav-divider{
+    a:not(.dropdown-item){
+      color: inherit;
+    }
+    .nav-item+.nav-item:before{
+      content: "\2022";
+      color: inherit;
+      padding-left: .65rem;
+      padding-right: .75rem;
+      opacity: 0.8;
+    }
+    .nav-item{
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .nav-link{
+      padding: 0;
+      color: inherit;
+    }
+  }
+  
